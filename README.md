@@ -23,9 +23,4 @@ _v.1.0.0.0_
 
 &nbsp;
 
-### License
-[MIT](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
-
-&nbsp;
-
 **Free Software, enjoy!**
