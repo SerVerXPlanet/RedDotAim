@@ -1,0 +1,2 @@
+# RedDotAim
+Sight for games
