@@ -6,6 +6,10 @@
 
 #### Changes:
 
+_v.1.0.1.0_
+
+- added the ability to close the sight when you next start the program
+
 _v.1.0.0.0_
 
 - only red dot on top of all windows
