@@ -23,5 +23,7 @@ namespace RedDotAim
 			var r = new Region(gp);
 			this.Region = r;
 		}
+		
+		
 	}
 }

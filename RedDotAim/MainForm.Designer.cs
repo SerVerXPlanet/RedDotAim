@@ -36,24 +36,25 @@ namespace RedDotAim
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.SuspendLayout();
-			// 
-			// MainForm
-			// 
-			this.BackColor = System.Drawing.Color.Red;
-			this.ClientSize = new System.Drawing.Size(100, 100);
-			this.ControlBox = false;
-			this.Cursor = System.Windows.Forms.Cursors.Default;
-			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-			this.MaximizeBox = false;
-			this.MinimizeBox = false;
-			this.Name = "MainForm";
-			this.ShowIcon = false;
-			this.ShowInTaskbar = false;
-			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.TopMost = true;
-			this.Load += new System.EventHandler(this.MainFormLoad);
-			this.ResumeLayout(false);
+		    this.SuspendLayout();
+		    // 
+		    // MainForm
+		    // 
+		    this.BackColor = System.Drawing.Color.Red;
+		    this.ClientSize = new System.Drawing.Size(100, 100);
+		    this.ControlBox = false;
+		    this.Cursor = System.Windows.Forms.Cursors.Default;
+		    this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+		    this.MaximizeBox = false;
+		    this.MinimizeBox = false;
+		    this.Name = "MainForm";
+		    this.ShowIcon = false;
+		    this.ShowInTaskbar = false;
+		    this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+		    this.Text = "RedDotAim";
+		    this.TopMost = true;
+		    this.Load += new System.EventHandler(this.MainFormLoad);
+		    this.ResumeLayout(false);
 
 		}
 	}
