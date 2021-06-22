@@ -1,6 +1,6 @@
 ## RedDotAim
 
-### _Sight for games_
+### _Assistant for games that do not have a scope_
 
 &nbsp;
 
