@@ -1,0 +1,39 @@
+# AppVeyor configuration for a C# .NET project
+
+# Specifies the build worker image. For .NET projects, Windows images are common.
+image: Visual Studio 2022
+
+# Environment variables (optional)
+# env:
+#   my_variable: my_value
+
+# Before build scripts
+#before_build:
+  # Restore NuGet packages for the solution
+  # - nuget restore YourSolutionName.sln
+
+# Build configuration
+build:
+  # Build the solution
+  project: RedDotAim.sln
+  # Configuration to build (e.g., Release or Debug)
+  configuration: Release
+
+# Test configuration
+#test_script:
+  # Run tests using dotnet test
+  # Replace 'YourTestProjectName.csproj' with the actual path to your test project file
+  # - dotnet test YourTestProjectName.csproj --logger:Appveyor
+
+# Artifacts to publish (optional, e.g., compiled executables or NuGet packages)
+# artifacts:
+#   - path: path/to/your/artifact.zip
+#     name: MyArtifact
+
+# Deployment configuration (optional)
+# deploy:
+#   provider: WebDeploy
+#   server: example.com
+#   username: your_username
+#   password:
+#     secure: encrypted_password
