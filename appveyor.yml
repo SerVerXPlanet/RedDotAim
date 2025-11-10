@@ -1,5 +1,7 @@
 # AppVeyor configuration for a C# .NET project
 
+version: '{build}'
+
 # Specifies the build worker image. For .NET projects, Windows images are common.
 image: Visual Studio 2019
 
@@ -18,6 +20,7 @@ build:
   project: RedDotAim.sln
   # Configuration to build (e.g., Release or Debug)
   configuration: Release
+  verb: Build
 
 # Test configuration
 #test_script:
