@@ -1,6 +1,6 @@
 # AppVeyor configuration for a C# .NET project
 
-version: '{build}'
+version: 1.0.{build}
 
 # Specifies the build worker image. For .NET projects, Windows images are common.
 image: Visual Studio 2019
