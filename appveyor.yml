@@ -5,6 +5,8 @@ version: 1.0.{build}
 # Specifies the build worker image. For .NET projects, Windows images are common.
 image: Visual Studio 2019
 
+configuration: Release
+  
 # Environment variables (optional)
 # env:
 #   my_variable: my_value
@@ -19,8 +21,6 @@ build:
   # Build the solution
   project: RedDotAim.sln
   # Configuration to build (e.g., Release or Debug)
-  configuration: Release
-  verb: Build
 
 # Test configuration
 #test_script:
